@@ -123,8 +123,6 @@ $tab_title_char_with = get_option('vl_tabbing_tab_title_char_with');
 		<tr>
 			<th colspan="2">
 				<?php @submit_button(); ?>
-				
-				visionlike
 			</th>
 		</tr>
 	</table>
