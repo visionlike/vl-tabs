@@ -1,0 +1,16 @@
+#admin_tab_example .tabbing p { margin:0; margin-bottom:15px; }
+#admin_tab_example .tabbing p:last-child { margin:0; }
+
+.tabbing .ct:after { content: "."; clear: both; display: block; visibility: hidden; height: 0px; }
+.tabbing { width: 100%; margin-bottom:30px; overflow:hidden; }
+.tabbing li.litab input[type=radio] { position:absolute; top:-20px; left:-9999px; }
+.tabbing ul.ultab { width: 100%; position:relative; list-style:none; margin:0; }
+
+.tabbing li.litab { float: left; margin:0; margin-top:40px; }
+.tabbing li.litab label.labeltab { font-size: 16px; line-height:40px; display: block; cursor: pointer; }
+.tabbing li.litab label.labeltab { position:absolute; top:0; left:0; text-align:center; }
+
+.tabbing li.litab [id^=tab]:checked + label { font-weight:bold; }
+.tabbing li.litab [id^=tab]:checked ~ [id^=tab-content] { display:block; -webkit-animation-duration: 0.5s; -o-animation-duration: 0.5s; -moz-animation-duration: 0.5s; animation-duration: 0.5s; }
+
+.tabbing li.litab .tab-content { text-align:left; width:100%; padding:15px; box-sizing: border-box; display:none; overflow:hidden; }

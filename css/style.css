@@ -1,0 +1,7 @@
+.tabbing { background:#F6F6F6; width: 100%; margin-bottom:30px; border:#DDD 1px solid; overflow:hidden; }
+
+.tabbing li.litab label.labeltab { border-right:#DDD 1px solid; text-align:center; }
+.tabbing li.litab label.labeltab:hover { background: #E2007A; color:#fff !important; }
+.tabbing li.litab [id^=tab]:checked + label { background: #97BF0D; color:#fff !important; font-weight:bold; }
+
+.tabbing li.litab .tab-content { background:#fff; }
