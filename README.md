@@ -35,6 +35,21 @@ Make your settings and use the Shortcode.
 * name  / name of the tab link
 * check  / the activ tab on load / optional
 
+# TinyMCE Editor Button #
+
+Lable: CSS Tabs
+
+Menu
+
+	-> Add Tab
+		-> First Tab
+		-> Tab
+		
+	-> Wrap Tabs
+		-> Wrap Tabs with standard width and standard animation
+		->Wrap Tabs with manual width and animation
+		->Wrap Tabs with standard width and manual animation
+
 # Your Own Style #
 
 style.css (Example for your own style.css)
